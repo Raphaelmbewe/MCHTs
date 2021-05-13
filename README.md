@@ -1,4 +1,4 @@
-## https://trafalgarui.netlify.app/
+## A prototype website for community health tips
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
