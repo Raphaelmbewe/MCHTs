@@ -17,7 +17,7 @@ export const MainHeader2 = () =>{
                     <div className="line2 mt-4"></div>
                     </div>
                     <p className="text-secondary text-left container">
-                        Trafalgar provides progressive,and affordable healthcare, accessible on mobile 
+                        MCH provides progressive,and affordable healthcare, accessible on mobile 
                          and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver
                      </p>
                      <button className="button-for-learn-more2 ">Learn more</button>

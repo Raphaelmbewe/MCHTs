@@ -1,16 +1,25 @@
 import React from "react";
 import { Home } from './Home';
-// import { Services } from './Services';
-// import { AboutUs } from './AboutUs';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Services } from './Services';
+import { AboutUs } from './AboutUs';
 
 
 function App() {
   return (
-      <div className="App">
-       <Home/>
-       {/* <Services /> */}
-       {/* <AboutUs/> */}
-    </div>
+    <Router>
+        <Switch>
+          <Route path='/' exact>
+            <Home />
+          </Route>
+          <Route path='/about' exact>
+            <AboutUs />
+          </Route>
+          <Route path='/services' exact>
+            <Services />
+          </Route>
+        </Switch>
+    </Router>
   );
 
 }

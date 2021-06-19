@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const VidoesDisplay = () => {
   return (
     <Container fluid>
-      <div className='lineInformationDisplay'></div>
+      <div className='videoDisplay'></div>
       <section className='container'>
         <div className='cardListVidoes container'>
           <Video />

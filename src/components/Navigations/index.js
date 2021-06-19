@@ -3,13 +3,12 @@ import './navigation.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from 'react-bootstrap';
 import Logo from '../../images/logo.png'
-import { Link } from 'react-router-dom';
 export const Navigation = ()=>{
 
     return (
       <div>
         <Navbar expand='lg' className='fixed-top nav-background '>
-          <Navbar.Brand href='#home'>
+          <Navbar.Brand href='/'>
             <div className='logoAndName'>
               <img src={Logo} alt='' className=' align-top img-fluid logo' />
               <div className='nameTag'>
@@ -21,18 +20,18 @@ export const Navigation = ()=>{
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='mr-auto my-nav-items  text-secondary '>
-              <Link to='/' className='text-dark'>
+              <Nav.Link href='/' className='text-dark'>
                 Home
-              </Link>
-              <Link to='testimonials' className='text-secondary'>
+              </Nav.Link>
+              <Nav.Link href='/services' className='text-secondary'>
                 Services
-              </Link>
-              <Link to='about' className='text-secondary'>
+              </Nav.Link>
+              <Nav.Link href='/about' className='text-secondary'>
                 About Us
-              </Link>
-              <Link to='apps' className='text-secondary'>
-                Testimonials
-              </Link>
+              </Nav.Link>
+              <Nav.Link href='/contact' className='text-secondary'>
+                Contact
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
