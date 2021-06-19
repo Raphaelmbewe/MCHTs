@@ -1,0 +1,37 @@
+.button-color{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);;
+}
+
+.button-color:hover{
+    background-color: #488ff6;
+}
+
+.button-color{
+    border-color: transparent;
+}
+
+input{
+  border:none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #000000 !important;
+  background: transparent !important;
+}
+
+input:focus { 
+    border-bottom: 1px solid #5A98F2 !important;
+     box-shadow: 0 0 0px !important;
+}
+
+textarea{
+  border:none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #000000 !important;
+  background: transparent !important;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-bottom: 1px solid #5A98F2 !important;
+    box-shadow: 0 0 0px !important;
+}
+
