@@ -9,7 +9,7 @@ export const MainHeader = () =>{
             <div className="row">
                 <div className="col-md-4">
                     <h1 className="text-left ml-3">Virtual healthcare <br/> for you</h1>
-                    <p className="text-secondary text-left container">Trafalgar provides progressive, and affordable
+                    <p className="text-secondary text-left container">MCH provides progressive, and affordable
                      health, accessible on mobile and online for everyone</p>
                      <button className="myButton text-light">Consult today</button>
                 </div>
