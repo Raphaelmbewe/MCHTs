@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0862aabc.chunk.css",
+    "main.js": "/static/js/main.a78dc42d.chunk.js",
+    "main.js.map": "/static/js/main.a78dc42d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e06c9bd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e06c9bd.js.map",
+    "static/css/2.9e48475f.chunk.css": "/static/css/2.9e48475f.chunk.css",
+    "static/js/2.8fa228ff.chunk.js": "/static/js/2.8fa228ff.chunk.js",
+    "static/js/2.8fa228ff.chunk.js.map": "/static/js/2.8fa228ff.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9e48475f.chunk.css.map": "/static/css/2.9e48475f.chunk.css.map",
+    "static/css/main.0862aabc.chunk.css.map": "/static/css/main.0862aabc.chunk.css.map",
+    "static/js/2.8fa228ff.chunk.js.LICENSE.txt": "/static/js/2.8fa228ff.chunk.js.LICENSE.txt",
+    "static/media/Mask1.546f3395.png": "/static/media/Mask1.546f3395.png",
+    "static/media/Mask2.14555dd0.png": "/static/media/Mask2.14555dd0.png",
+    "static/media/Mask3.27a15b11.png": "/static/media/Mask3.27a15b11.png",
+    "static/media/jumbotron.css": "/static/media/farming.2ad41983.jpg",
+    "static/media/hero.7ef37fcd.png": "/static/media/hero.7ef37fcd.png",
+    "static/media/hero2.374ab961.png": "/static/media/hero2.374ab961.png",
+    "static/media/hero3.017c0f36.png": "/static/media/hero3.017c0f36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e06c9bd.js",
+    "static/css/2.9e48475f.chunk.css",
+    "static/js/2.8fa228ff.chunk.js",
+    "static/css/main.0862aabc.chunk.css",
+    "static/js/main.a78dc42d.chunk.js"
+  ]
+}
