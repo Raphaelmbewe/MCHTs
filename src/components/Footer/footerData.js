@@ -11,7 +11,7 @@ export  const usefulLinks = [
   },
   {
     id: 3,
-    title: 'Developed/Designed\n Raphael Limbikani Mbewe\n 1905384082',
+    title: 'Developed/Designed By\n Raphael Limbikani Mbewe\n 1905384082',
     link: 'https://github.com/Raphaelmbewe',
   }
 ]
