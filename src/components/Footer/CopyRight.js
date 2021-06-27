@@ -17,7 +17,7 @@ export const AppFooterItem1 = () => {
       <p className="name-content text-light align-text-middle" style={{fontSize:15}}>
         {text}
       </p>
-      <div className="text-light align-text-middle ">© MCH 2021. All rights reserved</div>
+      <div className="text-light align-text-middle ">© MCH based on Kabanana Site and Service 2021. All rights reserved</div>
       </footer>
     </>
   );
