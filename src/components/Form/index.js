@@ -14,7 +14,8 @@ export const Form = () => {
 
           <Row>
             <div className='col-8 offset-2'>
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
                 <Row>
                   <div className='col-md-6 mb-3 form-group'>
                     <label htmlFor="myInput" > Name</label>
