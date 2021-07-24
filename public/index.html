@@ -27,6 +27,39 @@
     <title>MCH</title>
   </head>
   <body>
+    <form  name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input
+                      type='name'
+                      class='form-control'
+                      name='name'
+                      placeholder='Your names'
+                    />
+                    <input
+                        type='email'
+                        class='form-control'
+                        name='email'
+                        placeholder='@'
+                      />
+                      <input
+                      type='text'
+                      class='form-control'
+                      name='textarea'
+                      placeholder='How did you hear about us?'
+                    />
+                    <input
+                      type='text'
+                      class='form-control'
+                      name='textarea'
+                      placeholder='How can we help you?'
+                    />
+                    <textarea
+                      type='text'
+                      class='form-control'
+                      name='message'
+                      placeholder='Type your message here'
+                    ></textarea>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
