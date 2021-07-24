@@ -14,14 +14,14 @@ export const Form = () => {
 
           <Row>
             <div className='col-8 offset-2'>
-              <form action='order.html' method='GET'>
+              <form name="contact" method="POST" data-netlify="true">
                 <Row>
                   <div className='col-md-6 mb-3 form-group'>
                     <label htmlFor="myInput" > Name</label>
                     <input
-                      type='text'
+                      type='name'
                       class='form-control'
-                      id='name'
+                      name='name'
                       placeholder='Your names'
                     />
                   </div>
@@ -30,9 +30,9 @@ export const Form = () => {
                     <label htmlFor="myInput"> Email</label>
                     <div className='input-group'>
                       <input
-                        type='text'
+                        type='email'
                         class='form-control'
-                        id='email'
+                        name='email'
                         placeholder='@'
                       />
                     </div>
@@ -43,7 +43,7 @@ export const Form = () => {
                     <input
                       type='text'
                       class='form-control'
-                      id='textarea'
+                      name='textarea'
                       placeholder='How did you hear about us?'
                     />
                   </div>
@@ -54,7 +54,7 @@ export const Form = () => {
                     <input
                       type='text'
                       class='form-control'
-                      id='textarea'
+                      name='textarea'
                       placeholder='How can we help you?'
                     />
                   </div>
@@ -65,7 +65,7 @@ export const Form = () => {
                     <textarea
                       type='text'
                       class='form-control'
-                      id='textarea'
+                      name='message'
                       placeholder='Type your message here'
                     />
                   </div>
